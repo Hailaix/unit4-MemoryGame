@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Memory Game!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Memory Game!</h1>
+    <h2>High Score: <span id='highScore'></span></h2>
+    <h3>Score: <span id="score"></span></h3>
+    <div>
+      <form action="" id="startGame">
+        <!-- <input type="range" name="cardNum" id="cardNum" min="2" max="100" step="2" value="10"></input> -->
+        <!-- <span>this is where the number goes</span> -->
+        <input type="number" name="cardNum" id="cardNum" placeholder="Number of colors to match">
+        <input type="submit" id="sg" value="Start!">
+      </form>
+      <button id="reset">Reset</button>
+
+    </div>
+    <div id="game">
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
